@@ -22,13 +22,15 @@ Utilizei a criação de um "token" e um "refresh token" para que o fluxo "passwo
   - Docker
   - Make
   - node +14 (Pode-se executar os scritps dentro do docker)
-  
+
 ```sh
 npm i
 make dev
 "Deve-se criar o banco no postgres com o nome de: star-product-database"
 npm run migrate
 ```
+ - é nescessario criar um arquivo .env a partir do .env-example
+ - sugestão pessoal, utilize dois valores diferentes para as chaves "PUBLIC_KEY_TOKEN" e "REFRESH_KEY_TOKEN", para fins de teste pode-se utilizar uma chave MD5 
 
 ## Postman (Exemplo)
  - [Drive com postman](https://drive.google.com/file/d/1VJt-B7VdufJ0V1Pc9E06dCnId1fCr3oE/view?usp=sharing)
