@@ -18,7 +18,11 @@ Utilizei a criação de um "token" e um "refresh token" para que o fluxo "passwo
  - Para que possa testar o fluxo sugiro criar uma caixa de email no [Ethereal](ethereal.email) (Para fins de desenvolvimento foi utilizado o node-mailer)
 
 ## Installation
-
+ ### O que você precisa ter instalado?
+  - Docker
+  - Make
+  - node +14 (Pode-se executar os scritps dentro do docker)
+  
 ```sh
 npm i
 make dev
